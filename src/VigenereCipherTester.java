@@ -13,7 +13,7 @@ public class VigenereCipherTester {
     @Test
     public void testConstructorKeyConvertedToLowercase() {
         VigenereCipher vigenereCipher = new VigenereCipher("LEMON");
-        assertEquals("lemon", vigenereCipher.getKey(), "Ensure that your constructor has been implemented correctly!");
+         assertEquals("lemon", vigenereCipher.getKey(), "Ensure that your constructor has been implemented correctly!");
     }
 
     @Test
